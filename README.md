@@ -8,4 +8,6 @@ kubernetes ressources
 
 ```bash
 kubectl create -f apps/busybox.yaml
+
+kubectl exec -ti busybox -- sh
 ```
